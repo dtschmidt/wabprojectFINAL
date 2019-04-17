@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:layout_marginBottom="12dp">
+
+    <TextView
+            android:text="message !!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fromrowtext"
+            android:id="@+id/txtview_fromrow_message"
+            android:padding="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtview_fromrow_username" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:text="username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" android:id="@+id/txtview_fromrow_username"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtview_fromrow_time" app:layout_constraintStart_toEndOf="@+id/txtview_fromrow_message"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="@+id/txtview_fromrow_message"
+            app:layout_constraintBottom_toBottomOf="@+id/txtview_fromrow_message"/>
+</android.support.constraint.ConstraintLayout>

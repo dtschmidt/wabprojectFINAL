@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity" android:background="@color/colorPrimary">
+    <TextView
+            android:text="Sign up"
+            android:layout_width="204dp"
+            android:layout_height="48dp"
+            android:id="@+id/txtview_register_header" android:typeface="normal"
+            android:textSize="36sp" android:textColor="@android:color/white" android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="100dp" app:layout_constraintTop_toTopOf="parent" android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.497" android:textAlignment="center"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:ems="10"
+            android:id="@+id/txt_register_usernameEntry" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:background="@drawable/roundededittext"
+            android:hint="Username"
+            android:layout_marginTop="64dp" app:layout_constraintTop_toBottomOf="@+id/txtview_register_header"
+            android:paddingStart="8dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_register_passwordEntry" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:background="@drawable/roundededittext"
+            android:hint="Password"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txt_register_emailEntry"
+            android:paddingStart="8dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_register_passwordConfirm" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:background="@drawable/roundededittext"
+            android:hint="Confirm Password"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txt_register_passwordEntry"
+            android:paddingStart="8dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txt_register_emailEntry"
+            android:hint="Email"
+            android:background="@drawable/roundededittext"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txt_register_usernameEntry"
+            app:layout_constraintEnd_toEndOf="@+id/txt_register_usernameEntry"
+            app:layout_constraintStart_toStartOf="@+id/txt_register_usernameEntry" android:paddingStart="8dp"/>
+    <Button
+            android:text="Register"
+            android:layout_width="94dp"
+            android:layout_height="34dp"
+            android:id="@+id/btn_register_register" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_register_passwordConfirm"
+            android:background="@color/colorAccent" android:textColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.498"/>
+</android.support.constraint.ConstraintLayout>

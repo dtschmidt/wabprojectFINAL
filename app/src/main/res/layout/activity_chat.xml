@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary" android:id="@+id/linearLayout2" android:paddingTop="100dp">
+
+    <Button
+            android:text="Wildcat Chat                                          >"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btn_chat_room3"
+            android:textSize="20sp" android:textAlignment="textStart" android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteY="177dp"/>
+    <Button
+            android:text="Cyberbullying                                        >"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btn_chat_room2"
+            android:textSize="20sp" android:textAlignment="textStart" android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteY="177dp" android:layout_marginTop="16dp"/>
+    <TextView
+            android:text="-Chat room for students who have experienced or witnessed cyber bullying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtview_chat_cyber" android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textAlignment="textStart"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtview_beforechat_welcome" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
+    <Button
+            android:text="Physical bullying                                >"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btn_chat_room1"
+            android:textSize="20sp" android:textAlignment="textStart" android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteY="177dp" android:layout_marginTop="16dp"/>
+
+    <TextView
+            android:text="-Chat room for students who have experienced or witnessed physical bullying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtview_chat_physical" android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textAlignment="textStart"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtview_beforechat_welcome" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+
+</LinearLayout>

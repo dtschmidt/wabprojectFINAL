@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "36550438617",
+    "firebase_url": "https://wildcatsagainstbullying-8c9bc.firebaseio.com",
+    "project_id": "wildcatsagainstbullying-8c9bc",
+    "storage_bucket": "wildcatsagainstbullying-8c9bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36550438617:android:4fced626444d96d9",
+        "android_client_info": {
+          "package_name": "com.example.wabproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-2Vdmud1gIFJX9MYm8rgUlymkHFUA-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36550438617-4urut6cek48b1at9r5s04a09gv4v9gii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Wilkerson.ChatApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36550438617:android:230d9cea699190bc",
+        "android_client_info": {
+          "package_name": "com.example.wabprojectredo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-2Vdmud1gIFJX9MYm8rgUlymkHFUA-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36550438617-4urut6cek48b1at9r5s04a09gv4v9gii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Wilkerson.ChatApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36550438617:android:7ba4f7b9a2e79b84",
+        "android_client_info": {
+          "package_name": "com.wilkersonmiddle.wildcatsagainstbullying"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-2Vdmud1gIFJX9MYm8rgUlymkHFUA-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36550438617-3lat4omg8cnq3ioh7nbv040kpkbsoe6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36550438617-4urut6cek48b1at9r5s04a09gv4v9gii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Wilkerson.ChatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

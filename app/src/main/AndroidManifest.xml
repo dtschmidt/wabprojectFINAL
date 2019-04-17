@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wilkersonmiddle.wildcatsagainstbullying">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/wablogofinal"
+            android:label="Wildcats Against Bullying"
+            android:roundIcon="@drawable/wablogofinal"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".ChatRoom3Activity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ChatActivity"/>
+        </activity>
+        <activity android:name=".BeforeChatActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".FinishSurveyActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".BeforeReportActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".SurveyActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".GamesActivity"/>
+        </activity>
+        <activity android:name=".FinishQuizActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".GamesActivity"/>
+        </activity>
+        <activity android:name=".QuizActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".GamesActivity"/>
+        </activity>
+        <activity android:name=".GamesActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".ReportActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".RegisterActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".LoginActivity"/>
+        </activity>
+        <activity android:name=".MusicActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".LinksActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".HomepageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChatRoom2Activity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ChatActivity"/>
+        </activity>
+        <activity android:name=".ChatRoom1Activity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ChatActivity"/>
+        </activity>
+        <activity android:name=".ChatActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomepageActivity"/>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>

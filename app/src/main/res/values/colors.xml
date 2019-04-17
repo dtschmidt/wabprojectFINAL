@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BA186E00</color> <!--green-->
+    <color name="colorPrimaryDark">#FBCA27</color> <!--bright gold-->
+    <color name="colorAccent">#BF9000</color> <!--darker gold-->
+    <color name="colorGrey">#4B5348</color> <!--grey-->
+    <color name="colorLink">#0000EE</color> <!--hyperlink blue-->
+</resources>
