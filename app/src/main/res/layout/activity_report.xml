@@ -110,6 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textNoSuggestions"
+                android:imeOptions="actionDone"
                 android:ems="10"
                 android:id="@+id/txt_report_description" app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" android:background="@drawable/roundededittext"

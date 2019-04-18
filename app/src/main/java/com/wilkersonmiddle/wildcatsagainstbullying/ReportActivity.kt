@@ -102,7 +102,6 @@ class ReportActivity : AppCompatActivity() {
         val intent = Intent(this, LinksActivity::class.java)
         //Tell links page to show thank you message
         intent.putExtra("showThankYou", true)
-        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
         startActivity(intent)
 
 
